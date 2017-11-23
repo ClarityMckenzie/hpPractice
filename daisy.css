@@ -1,14 +1,3 @@
-@font-face {
-  font-family: notomono;
-  src: url(NotoMono/NotoMono-Regular.ttf);
-}
-
-@font-face {
-  font-family: notosans;
-  src: url(ns/NotoSans-Regular.ttf);
-}
-
-
 /* mobile */
 
 @media (min-width: 400px) {
@@ -61,7 +50,7 @@
 }
 
 * {
-  font-family: notosans;
+  font-family: helvetica;
 }
 
 body {
