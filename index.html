@@ -3,15 +3,14 @@
 <meta charset="utf-8">
 <meta name="description" content="Hakone Projects">
 <meta name="author" content="Claire Mckenzie">
-<meta name="A work in progress"
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="A work in progress" <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hakone Projects</title>
 
-<meta property="og:url" content="https://hakoneprojects.com"/>
-<meta property="og:title" content="Hakone Projects"/>
+<meta property="og:url" content="https://hakoneprojects.com" />
+<meta property="og:title" content="Hakone Projects" />
 
-<meta property="og:description" content="A work in progress"/>
-<meta property="og:image" content="media/hp-splash.png"/>
+<meta property="og:description" content="A work in progress" />
+<meta property="og:image" content="media/hp-splash.png" />
 
 <!-- imports -->
 
@@ -22,7 +21,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-
+<script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9ZZLdJJ-0L3tlBgEmknAJCzYRgCoumNs&callback=initMap">
+   </script>
 
 
 </head>
@@ -31,7 +32,7 @@
   <!-- title and ink video -->
 
   <div id="title">
-    <video src="media/inkbkg.mp4" loop autoplay id="bg-vid">
+    <video src="media/inkbkg.mov" loop autoplay id="bg-vid">
           </video>
     <h1 id="title-text">HAKONE <br> &nbsp;&nbsp;&nbsp;&nbsp;PROJECTS</h1>
   </div>
@@ -95,15 +96,57 @@
   </div>
   <div class="container-fluid" id="ram-1">
 
+    <!-- INSTAX -->
+
+    <div class="container-fluid" id="ram-1-instax">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-5" id="instax-description">
+          <p> Taking polaroids at the Pioneers' Reunion Luncheon and Nikkei Cultural Center and Museum, December 2017.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-7" >
+          <img src="media/instax.jpg" alt="Fujifilm Instax camera and props" id="instax-image">
+        </div>
+
+
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- ROBSON -->
+
+    <div class="container-fluid" id="ram-1-robson">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-7" id="robson-description">
+          <h3> Muji on Robson, I've been waiting for you... </h3><br>
+          <img src="media/robson.jpg" alt="Robson Muji bag" id="robson-img">
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-5" id="robson-map">
+
+          <div id="map">
+          </div>
+  <br>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <hr>
     <!-- SUMO -->
 
     <div class="container-fluid" id="ram-1-sumo">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6" id="sumo-image">
-          <img src="media/sumo.jpg" alt="Sumo Ring" id="sumo-img-1">
+        <div class="col-xs-12 col-sm-12 col-md-7" id="sumo-image">
+          <img src="media/sumo.jpg" alt="Sumo Ring" id="sumo-img">
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6" id="sumo-description">
+        <div class="col-xs-12 col-sm-12 col-md-5" id="sumo-description">
           <h3> March of the Giants </h3>
           <p> The September 2017 Sumo Grand Tournament at the Ryōgoku Kokugikan in Tokyo.</p>
         </div>
@@ -338,6 +381,26 @@
         </div>
       </div>
       <hr>
+
+      <!-- cup noodles -->
+
+      <div class="container-fluid" id="ram-1-cupnoodle">
+
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-6" id="ram-1-cupnoodle-description">
+            <p> Preparing a custom Cup Noodle at the Ando Momofuku Museum in Yokohama. </p>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img src="media/cupnoodle.jpg" alt="Making Cup Noodles" id="ram-1-cupnoodle-image">
+          </div>
+
+        </div>
+      </div>
+      <hr>
+
+
       <!-- up arrow -->
 
       <div id="up-nav">
